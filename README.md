@@ -1,5 +1,3 @@
-estoy creando el siguiente readme 
-
 <p align="center">
   <a href="http://nestjs.com/" target="_blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
@@ -39,16 +37,3 @@ bash
 $ npm install
 # development
 $ npm run start
-
-$ npm run start:dev
-
-## Run project With Docker
-bash
-$ docker-compose up --build
-
-##Documentation with Swagger
-
-http://localhost:3000/docs
-
-![swagger local](https://github.com/user-attachments/assets/4de7ce07-ef9b-41be-8c60-39a143c2857e)
-
