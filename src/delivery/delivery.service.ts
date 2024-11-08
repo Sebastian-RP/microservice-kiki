@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Constants } from 'src/constants/constants'; // Asegúrate de que esta constante esté bien definida
-import { CreateDeliveryDto } from 'src/DTO/createDeliveryDto';
-import { DeliveryEntity } from 'src/model/delivery.entity';
+import { Constants } from 'src/delivery/constants/constants';
+import { CreateDeliveryDto } from 'src/delivery/dto/createDeliveryDto';
+import { DeliveryEntity } from 'src/delivery/model/delivery.entity';
 import { Repository } from 'typeorm';
 
 @Injectable()

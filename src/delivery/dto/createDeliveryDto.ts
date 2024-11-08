@@ -1,11 +1,11 @@
 import { IsString, IsNotEmpty, IsNumber, IsDateString } from 'class-validator';
-import { ApiProperty } from '@nestjs/swagger';  // Importar el decorador de Swagger
+import { ApiProperty } from '@nestjs/swagger';
 
 export class CreateDeliveryDto {
   
     @ApiProperty({
         description: 'El destinatario del envío',
-        example: 'Juan Pérez',  // Un ejemplo del valor esperado
+        example: 'Juan Pérez',
     })
     @IsString({ message: 'El campo destinatario debe ser un texto' })
     @IsNotEmpty({ message: 'El campo destinatario es requerido' })
@@ -29,14 +29,14 @@ export class CreateDeliveryDto {
 
     @ApiProperty({
         description: 'La fecha en la que se realiza el envío (formato ISO)',
-        example: '2024-11-25',  // Ejemplo de fecha en formato ISO
+        example: '2024-11-25',
     })
     @IsDateString({}, { message: 'La fecha debe tener un formato valido, ejemplo: 2024-11-25' })
     fecha_envio: string;
 
     @ApiProperty({
         description: 'La distancia en kilómetros entre el remitente y el destinatario',
-        example: 150,  // Ejemplo de distancia
+        example: 150,
     })
     @IsNumber({}, { message: 'El campo distancia debe ser un número' })
     @IsNotEmpty({ message: 'El campo distancia es requerido' })

@@ -1,6 +1,6 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
 import { DeliveryService } from './delivery.service';
-import { CreateDeliveryDto } from 'src/DTO/createDeliveryDto';
+import { CreateDeliveryDto } from 'src/delivery/dto/createDeliveryDto';
 
 @Controller('delivery')
 export class DeliveryController {

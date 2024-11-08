@@ -25,7 +25,7 @@ import configuration from './config/configuration';
           password: configService.get('database.password'),
           database: configService.get('database.name'),
           entities: [__dirname + '/**/*.entity{.ts,.js}'],
-          synchronize: true, // Don't use this option for prod mode
+          synchronize: true, // no usar en produción
           keepConnectionAlive: true,
           timezone: 'UTC',
           ssl: configService.get('database.ssl'),
