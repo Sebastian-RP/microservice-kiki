@@ -41,5 +41,7 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
+
+# watch mode
 ## Project setup
 
