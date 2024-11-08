@@ -40,16 +40,3 @@ $ npm run start
 
 # watch mode
 $ npm run start:dev
-
-## Run project With Docker
-# watch mode
-
-```bash
-$ docker-compose up --build
-# watch mode
-
-##Documentation with Swagger
-
-http://localhost:3000/docs
-
-![swagger local](https://github.com/user-attachments/assets/4de7ce07-ef9b-41be-8c60-39a143c2857e)
