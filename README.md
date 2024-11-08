@@ -40,8 +40,10 @@ $ npm run start
 
 # watch mode
 $ npm run start:dev
+```
 
+## Run project with Docker Compose 
 
-# watch mode
-## Project setup
-
+```bash
+$ docker-compose up --build
+```
