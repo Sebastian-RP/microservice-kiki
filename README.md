@@ -47,3 +47,7 @@ $ npm run start:dev
 ```bash
 $ docker-compose up --build
 ```
+## Documentation with Swagger
+*URL:* http://localhost:3000/docs
+
+![swagger local](https://github.com/user-attachments/assets/5e09d551-86d6-4211-b697-4880dc15d404)
